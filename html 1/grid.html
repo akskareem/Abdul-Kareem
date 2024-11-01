@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> CSS Grid</title>
+        <style>
+          
+            .div1
+            {
+                
+                display: grid;
+                grid-template-columns: 200px 75px;
+                column-gap: 10px;
+                
+                
+
+            }
+            .div2
+            {
+                background-color: skyblue;
+               
+              
+            }
+            .div3
+            {
+                background-color: lightgreen;
+                
+           }.col1{
+            
+                background-color: aquamarine;
+            }
+
+            .col2{
+              
+                
+                background-color: bisque;
+            }
+            .col3{
+             
+                
+                background-color: aquamarine;
+            }
+            .div4
+            
+            {
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+                column-gap: 10px;
+            }   
+
+     .div99
+      {
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr  ;
+        column-gap: 20px;
+        row-gap: 10px;
+
+       }
+       
+       
+       
+  
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="div1">
+            <div class="div2">200px</div>
+            <div class="div3">75px</div>
+        </div><hr><hr>
+
+
+        <div class="div4">
+            <div class="col1">col1</div>
+            <div class="col2">col2</div>
+            <div class="col3">col3</div>
+
+        </div><hr><hr>
+
+   
+
+        <div  class="div99">
+
+            <div style="background-color: pink">col1</div>
+            <div style="background-color: pink;">col2</div>
+            <div style="background-color: pink;">col3</div>
+            <div style="background-color: pink;">col4</div>
+            <div style="background-color: pink;">col1</div>
+            <div style="background-color: pink;">col2</div>
+            <div style="background-color: pink;">col3</div>
+            <div style="background-color: pink;">col4</div>
+        
+   
+
+     </div>
+
+    </body>
+</html>

@@ -1,0 +1,79 @@
+
+p{
+    font-family:Rubik Wet Paint;
+    text-align: center;
+    margin:auto;
+}
+
+.one{
+    color:red;
+    font-size: 13px;
+}.two{
+    font-weight: bold;
+    width: 150px;
+}.three{
+    font-weight: bold;
+    width: 600px;
+    font-size: 25px;
+}.four{
+    font-size:10px;
+    margin-top:50px;
+
+}
+.butt{
+    background-color: blue;
+    border: none;
+    color: white;
+    text-align: center;
+    margin-left:280px;
+    font-family: arial;
+    margin-top:10px  ;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 9px;
+}
+.five,.six,.seven{
+text-align: left;
+margin-left: 15px;
+font-family: arial;
+
+}.five{font-size: 23px;
+font-weight:  2px bold;
+line-height: 26px;
+
+}.grey{
+font-size: 13px;
+color:grey
+
+}.six{
+color:green;
+font-size: 15px;
+margin-bottom: 7px;
+}.seven{
+color:grey;
+font-size: 15px;
+}.gg{
+color:red;
+}
+.hhh{
+    text-align: left;
+    margin-left: 15px;
+    font-weight: bold;
+}.ll{
+    color:grey;
+    font-weight: 1;
+    font-size: 15px;
+}.kkk{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}.tt{
+    text-align: left;
+    margin-left: 15px;
+} .pp{
+color: lightskyblue;
+opacity: 1;
+}
