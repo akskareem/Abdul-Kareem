@@ -1,0 +1,30 @@
+*{
+    color: white;
+    margin: 0px;
+   
+}
+.navbar{
+    border: 25px solid rgb(213, 206, 206);
+    display: flex;
+    height: 60px;
+    background-color: #0f1111;
+    justify-content: space-between;
+    align-items: start;
+}.for-amazon{
+    font-size: 25px;
+    color: orange;
+}.for-cart{
+    margin-right: 200px;
+    padding: 0px;
+    
+}
+.for-contact{
+    margin-left: 0px;
+    padding: 0px;
+
+}button{
+    background-color: #f08804;
+}
+.input{
+    margin-right: 20px;
+}

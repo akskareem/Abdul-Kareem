@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <p>Let us know how we can improve freeCodeCamp</p>
+
+    <form>
+        <label for="name">* Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">* Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required><br><br>
+
+        <label for="age">* Age</label>
+        <input type="number" id="age" name="age" min="1" max="120"><br><br>
+
+        <label for="role">Which option best describes your current role?</label>
+        <select id="role" name="role">
+            <option value="student">Student</option>
+            <option value="job">Full-time Job</option>
+            <option value="learner">Full-time Learner</option>
+            <option value="prefer-not">Prefer not to say</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <p>* How likely is it that you would recommend freeCodeCamp to a friend?</p>
+        <input type="radio" id="definitely" name="recommend" value="definitely">
+        <label for="definitely">Definitely</label><br>
+
+        <input type="radio" id="maybe" name="recommend" value="maybe">
+        <label for="maybe">Maybe</label><br>
+
+        <input type="radio" id="not-sure" name="recommend" value="not-sure">
+        <label for="not-sure">Not sure</label><br><br>
+
+        <label for="favorite">What do you like most in FCC:</label>
+        <select id="favorite" name="favorite">
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="open-source">Open Source</option>
+        </select><br><br>
+
+        <p>Things that should be improved in the future (Check all that apply):</p>
+        <input type="checkbox" id="frontend" name="improvements" value="frontend">
+        <label for="frontend">Front-end Projects</label><br>
+
+        <input type="checkbox" id="backend" name="improvements" value="backend">
+        <label for="backend">Back-end Projects</label><br>
+
+        <input type="checkbox" id="data-viz" name="improvements" value="data-viz">
+        <label for="data-viz">Data Visualization</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
